@@ -21,3 +21,12 @@ gets written to `cat`
     * `--init` - gets sent to the child process when the shell starts
     * `--divider` - a script or file that gets called to create the I/O
         divider (ex. color coded pwd)
+
+
+## resources
+
+* [Aho-Corasick visualizer](https://wiomoc.de/aho-corasick-viz/)
+* Niema Moshiri's Aho-Corasick videos
+	* [failure links](https://www.youtube.com/watch?v=O7_w001f58c)
+	* [dictionary links](https://www.youtube.com/watch?v=OFKxWFew_L0)
+

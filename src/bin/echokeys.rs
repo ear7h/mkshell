@@ -1,5 +1,3 @@
-#![feature(or_patterns)]
-
 use termion::{
     event::{Event, Key},
     input::{MouseTerminal, TermReadEventsAndRaw},

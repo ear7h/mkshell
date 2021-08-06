@@ -3,12 +3,26 @@ name = "mkshell"
 version = "0.1.0"
 authors = ["julio @ear7h"]
 edition = "2018"
+default-run = "mkshell"
 
 
 [dependencies]
+streaming-iterator = "0.1.5"
 termion = "1.5.6"
 unicode-width = "0.1.8"
 mio = { version = "0.7.7", features = ["os-poll", "os-ext"] }
-aho-corasick = { path = "vendor/aho-corasick" }
 nix = "0.19.1"
 clap = "2.33.3"
+terminal_size = "0.1.17"
+quick_from = "0.1.0"
+
+[dependencies.tokio]
+version = "1.9.0"
+features = [
+	"macros",
+	"io-std",
+	"io-util",
+	"process",
+	"rt",
+	"sync",
+]
